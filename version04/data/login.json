@@ -1,0 +1,51 @@
+{
+  "test_login_no_accost": {
+    "username": "13413413489",
+    "password": "123456",
+    "verify": "8888",
+    "message": "账号不存在",
+    "is_success": false
+  },
+  "test_login_password_error": {
+    "username": "13812345678",
+    "password": "123457",
+    "verify": "8888",
+    "message": "密码错误",
+    "is_success": false
+  },
+  "test_login_verify_empty": {
+    "username": "13812345678",
+    "password": "123456",
+    "verify": "",
+    "message": "验证码不能为空",
+    "is_success": false
+  },
+  "test_login_password_empty": {
+    "username": "13812345678",
+    "password": "",
+    "verify": "8888",
+    "message": "密码不能为空",
+    "is_success": false
+  },
+  "test_login_username_empty": {
+    "username": "",
+    "password": "123456",
+    "verify": "8888",
+    "message": "用户名不能为空",
+    "is_success": false
+  },
+  "test_login_verify_error": {
+    "username": "13812345678",
+    "password": "123456",
+    "verify": "8889",
+    "message": "验证码错误",
+    "is_success": false
+  },
+  "test_login_success": {
+    "username": "13812345678",
+    "password": "123456",
+    "verify": "8888",
+    "message": "安全退出",
+    "is_success": true
+  }
+}
